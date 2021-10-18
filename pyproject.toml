@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "validity-notifier"
+version = "0.1.0"
+description = "Tool to check validity of vehicle related documents and notify by email when an expiration date is close."
+authors = ["Andrada <andrada_balog@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.4"
+yagmail = "^0.14.260"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.9.3"
+pylint = "^2.11.1"
+flake8 = "^4.0.1"
+yapf = "^0.31.0"
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
